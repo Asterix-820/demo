@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(135, 130, 130);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  border: 3px solid blue;
+  margin: 7px;
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+header {
+
+  border: 3px solid yellow;
+  margin: 10px;
+  text-align: center;
+  background-color: bisque;
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 22px;
+}
+
+.Todoslogic {
+  border: 5px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.inputTodo {
+  border: 3px solid green;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  height: 20vh;
+  background-color: rgb(69, 133, 197);
+}
+
+.TodosList {
+  border: 3px solid purple;
+  margin: 10px;
+  padding: 2rem;
+  text-align: center;
+  background-color: bisque;
+}
+
+.TodoItem {
+  border: 3px solid red;
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background-color: #766a6a;
+  display: flex;
+}
+
+#search {
+  width: 60%;
+  height: 40%;
+  font-size: 22px;
+  border-radius: 11px;
+  text-align: center;
+}
+
+.news {
+  border: 3px solid orange;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(231, 65, 65);
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
+
+}
